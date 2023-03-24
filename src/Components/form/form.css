@@ -1,0 +1,32 @@
+.form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.form input {
+    width: 350px;
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 15px;
+}
+
+.form-btn{
+    width: 80px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: antiquewhite;
+}

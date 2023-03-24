@@ -1,0 +1,17 @@
+.list-item{
+    width: 450px;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.list-item button {
+    width: 70px;
+    height: 28px;
+    background-color: #ffff00;
+    border-radius: 10px ;
+    border: none;
+    cursor: pointer;
+}
